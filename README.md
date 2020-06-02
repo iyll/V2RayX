@@ -33,6 +33,8 @@ or step by step:
 
 open V2RayX.xcodeproj and use Xcode to build V2RayX.
 
+> note: change `VERSION` variable in "V2RayX/V2RayX/dlcore.sh" to specify the V2Ray-core version. `4.18.0` by default.
+
 ## How does V2RayX work
 
 V2RayX provides a GUI to generate the config file for V2Ray. It includes V2Ray's binary executable in the app bundle. V2RayX starts and stops V2Ray with `launchd` of macOS.
