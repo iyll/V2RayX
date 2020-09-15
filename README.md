@@ -33,7 +33,7 @@ or step by step:
 
 open V2RayX.xcodeproj and use Xcode to build V2RayX.
 
-> note: change `VERSION` variable in "V2RayX/V2RayX/dlcore.sh" to specify the V2Ray-core version. `4.18.0` by default.
+> note: change `VERSION` variable in "V2RayX/V2RayX/dlcore.sh" to specify the V2Ray-core version. 
 
 ## How does V2RayX work
 
