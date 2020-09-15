@@ -29,9 +29,13 @@ V2RayX.app is built by running one of the following commands in your terminal. Y
 
 or step by step:
 
+1. get V2RayX source file
+
 `git clone --recursive https://github.com/Cenmrev/V2RayX.git`
 
-open V2RayX.xcodeproj and use Xcode to build V2RayX.
+2. check whether or not `GCDWebServer` folder contain its own source file, download it from the repositor via this [link](https://github.com/swisspol/GCDWebServer/releases) if empty.
+
+3. open V2RayX.xcodeproj and use Xcode to build V2RayX.
 
 > note: change `VERSION` variable in "V2RayX/V2RayX/dlcore.sh" to specify the V2Ray-core version. 
 
